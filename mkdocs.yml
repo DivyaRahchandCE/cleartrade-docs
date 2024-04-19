@@ -1,0 +1,76 @@
+#site_name: ClearTrade Documents
+site_name: ClearTrade Documentation
+
+nav:
+  - Home1: index.md
+  - Document Fabric: Document_Fabric.md
+  - Ingestion Flow: Ingestion_Flow.md
+  - Classification Flow: Classification_Flow.md
+  - OCR: OCR.md
+  - Extraction Flow: Extraction_Flow.md
+  - Ingestion Flow: Ingestion_Flow.md
+  - Model Integration: Model_Integration.md
+  - Rule Engine Integration: Rule_Engine_Integration.md
+  - LC Merge: LC_Merge.md
+  - CDM: CDM.md
+  - CE Utility Packages: CE_Utility_Packages.md
+  - Back Office Integration: Back_Office_Integration.md
+  - Minio Buckets: Minio_Buckets.md
+  - RabbitMQ Queues: RabbitMQ_Queues.md
+  - Noun Extraction: Noun_Extraction.md
+  - Compliance: Compliance.md
+  - Guarantees: Guarantees.md
+  - Completion Work Flow: Completion_Work_Flow.md
+  - Workflow Configurator: Workflow_Configurator.md
+  - Environment Variable Configuration: Environment_Variable_Configuration.md
+  - Report: Report.md
+  - Audit: Audit.md
+  - Database Guide: Database_Guide.md
+#   Add other topic files here...
+theme:
+  name: material
+  features:
+    - content.code.copy
+    - content.tabs.link
+
+
+markdown_extensions:
+  - toc:
+      title: On this page
+      permalink: true
+      toc_depth: 4
+  - attr_list
+  - md_in_html
+  - pymdownx.tabbed:
+        alternate_style: true
+
+extra_css:
+  - docs/css/custom.css
+
+plugins:
+  - glightbox:
+      touchNavigation: true
+      loop: false
+      effect: zoom
+      slide_effect: slide
+      width: 100%
+      height: auto
+      zoomable: true
+      draggable: true
+      skip_classes:
+        - custom-skip-class-name
+      auto_caption: false
+      caption_position: bottom
+      background: white
+      shadow: true
+  - search:
+
+
+extra_files:
+  - images  # Include additional directories/files as needed
+  - css     # If you have other CSS files or directories
+
+extra:
+  version:
+    provider: mike
+
