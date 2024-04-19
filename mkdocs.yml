@@ -17,7 +17,7 @@ nav:
   - Back Office Integration: Back_Office_Integration.md
   - Minio Buckets: Minio_Buckets.md
   - RabbitMQ Queues: RabbitMQ_Queues.md
-  - Noun Extraction: Noun_Extraction.md
+  - Noun Extraction: Noun_extraction.md
   - Compliance: Compliance.md
   - Guarantees: Guarantees.md
   - Completion Work Flow: Completion_Work_Flow.md
@@ -65,9 +65,6 @@ plugins:
       shadow: true
   - search:
 
-
-extra_files:
-  - images  # Include additional directories/files as needed
 extra:
   version:
     provider: mike
