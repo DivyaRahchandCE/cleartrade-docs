@@ -1,0 +1,20 @@
+/* Example custom CSS to adjust width */
+.md-content {
+    max-width: 900px; /* Adjust to your desired width */
+    margin: 0 auto;   /* Center the content */
+}
+/* Example custom CSS to specify font */
+/* Custom CSS to specify Roboto font */
+
+/* Custom CSS to specify Roboto font */
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Roboto', sans-serif;
+}
+
+
+/* You can add more rules to specify font for other elements as needed */
+

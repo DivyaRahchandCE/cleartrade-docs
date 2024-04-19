@@ -13,4 +13,5 @@ jobs:
           python-version: 3.8
       - run: pip install mkdocs-material
       - run: pip install mkdocs-glightbox
+      - run: pip install mkdocs-mermaid2-plugin
       - run: mkdocs gh-deploy --force
