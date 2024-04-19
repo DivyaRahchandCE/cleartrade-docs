@@ -68,8 +68,6 @@ plugins:
 
 extra_files:
   - images  # Include additional directories/files as needed
-  - css     # If you have other CSS files or directories
-
 extra:
   version:
     provider: mike
