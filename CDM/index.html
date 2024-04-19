@@ -1,0 +1,2011 @@
+
+<!doctype html>
+<html lang="en" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+      
+      
+      
+      
+      
+      <link rel="icon" href="../assets/images/favicon.png">
+      <meta name="generator" content="mkdocs-1.5.3, mkdocs-material-9.5.18">
+    
+    
+      
+        <title>1 Introduction and Summary - ClearTrade Documentation</title>
+      
+    
+    
+      <link rel="stylesheet" href="../assets/stylesheets/main.66ac8b77.min.css">
+      
+      
+
+
+    
+    
+      
+    
+    
+      
+        
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,700,700i%7CRoboto+Mono:400,400i,700,700i&display=fallback">
+        <style>:root{--md-text-font:"Roboto";--md-code-font:"Roboto Mono"}</style>
+      
+    
+    
+      <link rel="stylesheet" href="../css/custom.css">
+    
+    <script>__md_scope=new URL("..",location),__md_hash=e=>[...e].reduce((e,_)=>(e<<5)-e+_.charCodeAt(0),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    
+      
+
+    
+    
+    
+   <link href="../assets/stylesheets/glightbox.min.css" rel="stylesheet"/><style>
+    html.glightbox-open { overflow: initial; height: 100%; }
+    .gslide-title { margin-top: 0px; user-select: text; }
+    .gslide-desc { color: #666; user-select: text; }
+    .gslide-image img { background: white; }
+    .gscrollbar-fixer { padding-right: 15px; }
+    .gdesc-inner { font-size: 0.75rem; }
+    body[data-md-color-scheme="slate"] .gdesc-inner { background: var(--md-default-bg-color);}
+    body[data-md-color-scheme="slate"] .gslide-title { color: var(--md-default-fg-color);}
+    body[data-md-color-scheme="slate"] .gslide-desc { color: var(--md-default-fg-color);}</style> <script src="../assets/javascripts/glightbox.min.js"></script></head>
+  
+  
+    <body dir="ltr">
+  
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#1-introduction-and-summary" class="md-skip">
+          Skip to content
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+    
+      
+
+  
+
+<header class="md-header md-header--shadow" data-md-component="header">
+  <nav class="md-header__inner md-grid" aria-label="Header">
+    <a href=".." title="ClearTrade Documentation" class="md-header__button md-logo" aria-label="ClearTrade Documentation" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54Z"/></svg>
+
+    </a>
+    <label class="md-header__button md-icon" for="__drawer">
+      
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3V6m0 5h18v2H3v-2m0 5h18v2H3v-2Z"/></svg>
+    </label>
+    <div class="md-header__title" data-md-component="header-title">
+      <div class="md-header__ellipsis">
+        <div class="md-header__topic">
+          <span class="md-ellipsis">
+            ClearTrade Documentation
+          </span>
+        </div>
+        <div class="md-header__topic" data-md-component="header-topic">
+          <span class="md-ellipsis">
+            
+              1 Introduction and Summary
+            
+          </span>
+        </div>
+      </div>
+    </div>
+    
+    
+      <script>var media,input,key,value,palette=__md_get("__palette");if(palette&&palette.color){"(prefers-color-scheme)"===palette.color.media&&(media=matchMedia("(prefers-color-scheme: light)"),input=document.querySelector(media.matches?"[data-md-color-media='(prefers-color-scheme: light)']":"[data-md-color-media='(prefers-color-scheme: dark)']"),palette.color.media=input.getAttribute("data-md-color-media"),palette.color.scheme=input.getAttribute("data-md-color-scheme"),palette.color.primary=input.getAttribute("data-md-color-primary"),palette.color.accent=input.getAttribute("data-md-color-accent"));for([key,value]of Object.entries(palette.color))document.body.setAttribute("data-md-color-"+key,value)}</script>
+    
+    
+    
+      <label class="md-header__button md-icon" for="__search">
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.516 6.516 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5Z"/></svg>
+      </label>
+      <div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" aria-label="Search" placeholder="Search" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" required>
+      <label class="md-search__icon md-icon" for="__search">
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.516 6.516 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5Z"/></svg>
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12Z"/></svg>
+      </label>
+      <nav class="md-search__options" aria-label="Search">
+        
+        <button type="reset" class="md-search__icon md-icon" title="Clear" aria-label="Clear" tabindex="-1">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12 19 6.41Z"/></svg>
+        </button>
+      </nav>
+      
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="search-result">
+          <div class="md-search-result__meta">
+            Initializing search
+          </div>
+          <ol class="md-search-result__list" role="presentation"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+    
+    
+  </nav>
+  
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+          
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+
+
+<nav class="md-nav md-nav--primary" aria-label="Navigation" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href=".." title="ClearTrade Documentation" class="md-nav__button md-logo" aria-label="ClearTrade Documentation" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54Z"/></svg>
+
+    </a>
+    ClearTrade Documentation
+  </label>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href=".." class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Home
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../Document_Fabric/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Document Fabric
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../Ingestion_Flow/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Ingestion Flow
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../Classification_Flow/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Classification Flow
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+              
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar" data-md-type="toc" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+  
+
+<nav class="md-nav md-nav--secondary" aria-label="On this page">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      On this page
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#11-purpose" class="md-nav__link">
+    <span class="md-ellipsis">
+      1.1 PURPOSE
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#12-entity-relationship-diagram-erd" class="md-nav__link">
+    <span class="md-ellipsis">
+      1.2 Entity-Relationship Diagram (ERD)
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#2-common-data-model-implementation-in-our-product" class="md-nav__link">
+    <span class="md-ellipsis">
+      2 Common Data Model Implementation in our Product
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="2 Common Data Model Implementation in our Product">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#21-product-backend-repositories" class="md-nav__link">
+    <span class="md-ellipsis">
+      2.1 Product Backend Repositories
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#use-case-1-add-a-new-field-to-to-cdm" class="md-nav__link">
+    <span class="md-ellipsis">
+      Use Case 1 : Add a new field to to CDM
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#use-case-2-add-document-to-cdm" class="md-nav__link">
+    <span class="md-ellipsis">
+      Use Case 2: Add document to CDM
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#use-case-3-map-fields-to-the-document-packing-list" class="md-nav__link">
+    <span class="md-ellipsis">
+      Use Case 3: Map fields to the document Packing list
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#use-case-4-removingreplace-a-field-from-a-document" class="md-nav__link">
+    <span class="md-ellipsis">
+      Use Case 4: Removing/Replace a field from a document
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#use-case-6-retrieving-document-details-based-on-document-type-id" class="md-nav__link">
+    <span class="md-ellipsis">
+      Use Case 6: Retrieving Document Details based on document Type ID
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+          
+          
+            <div class="md-content" data-md-component="content">
+              <article class="md-content__inner md-typeset">
+                
+                  
+
+
+<h1 id="1-introduction-and-summary">1 Introduction and Summary<a class="headerlink" href="#1-introduction-and-summary" title="Permanent link">&para;</a></h1>
+<p>The Common Data Model (CDM) serves as a standardized and structured framework for organizing and representing data across all applications within ClearTrade.</p>
+<p>In this guide, we'll explore how the CDM serves as the backbone for organizing and managing data across all applications within the ClearTrade platform.</p>
+<p>The purpose of this document is to provide a step-by-step guide to entering a Project, Package, and tag management.</p>
+<h2 id="11-purpose">1.1 PURPOSE<a class="headerlink" href="#11-purpose" title="Permanent link">&para;</a></h2>
+<p>The purpose of the CDM is to establish a standardized and unified approach to data representation within the project. It aims to ensure consistency, integrity, and data exchange across different components of the system. By using the same data model everywhere, our product can work together more smoothly. This means that information can move between modules and repositories without any hiccups, making communication and teamwork much easier for everyone involved.</p>
+<h2 id="12-entity-relationship-diagram-erd">1.2 Entity-Relationship Diagram (ERD)<a class="headerlink" href="#12-entity-relationship-diagram-erd" title="Permanent link">&para;</a></h2>
+<p>Below is the Entity-Relationship Diagram illustrating the structure of the CDM:</p>
+<h2 id="2-common-data-model-implementation-in-our-product">2 Common Data Model Implementation in our Product<a class="headerlink" href="#2-common-data-model-implementation-in-our-product" title="Permanent link">&para;</a></h2>
+<h3 id="21-product-backend-repositories">2.1 Product Backend Repositories<a class="headerlink" href="#21-product-backend-repositories" title="Permanent link">&para;</a></h3>
+<p>Our product consists of multiple backend repositories, each potentially managing its own data specific to its functionalities. These repositories work together to deliver the overall product experience.</p>
+<p><strong>Important Note:</strong> One of these repositories, <code>ce-cdm</code> (represented by the wheel file <code>tradefinance-0.1.8.13-py3-none-any.whl</code>).</p>
+<p><strong>Key Point:</strong> When you download and install any of our product's backend repositories, you'll likely find a dependency listed in the <code>requirements.txt</code> file as <code>tradefinance==0.1.8.0</code>. This dependency is the <code>ce-cdm</code> repository referenced through an artifact link.</p>
+<p>In essence, the <code>ce-cdm</code> repository acts as a shared library offering CDM functionalities that can be utilized by other product repositories. This promotes consistency and simplifies data management across the entire product backend.</p>
+<p><a class="glightbox" href="../images/cdm_product_backend_repositories.png" data-type="image" data-width="100%" data-height="auto" data-desc-position="bottom"><img alt="Product Backend Repositories" src="../images/cdm_product_backend_repositories.png" /></a></p>
+<h3 id="use-case-1-add-a-new-field-to-to-cdm">Use Case 1  : Add a new field to to CDM<a class="headerlink" href="#use-case-1-add-a-new-field-to-to-cdm" title="Permanent link">&para;</a></h3>
+<p>To add a new field to the CDM (Common Data Model) under LC (Letter of Credit), you need to modify the existing code snippet as provided. Let's say if we want to add a field for "Assignee Bank details" under LC.</p>
+<pre><code class="language-yaml">
+tradefinance/
+├── application/
+│   └── fields/
+│       └── lc/
+│           └── Assignee.py
+├── common/
+│   └── constants/
+│       └── field_keys.py
+└── setup.py
+
+
+</code></pre>
+<p>Add the below lines in Assignee.py</p>
+<pre><code>
+from tradefinance.common.enumerators.compliance_categories import ComplianceCategories
+from tradefinance.application.fields.subfields.name_address import NameAddress
+from tradefinance.common.constants.field_keys import ASSIGNEE
+from tradefinance.application.fields.subfields.code import Code
+from tradefinance.common.enumerators.rule_types import RuleTypes
+from tradefinance.common.constants.metadata_keys import IS_LC_FIELD
+
+
+class Assignee(NameAddress):
+    &quot;&quot;&quot;
+    Assignee Bank
+    &quot;&quot;&quot;
+
+    def __init__(self, identifier_code=None, name=None, address=None, country=None):
+        super().__init__(name=name, address=address, country=country)
+        self.metadata.display_name = &quot;Assignee&quot;
+        self.metadata.key = ASSIGNEE
+        setattr(self.metadata, IS_LC_FIELD, True)
+        self.identifier_code = identifier_code or Code()
+        self.identifier_code.metadata.display_name = 'Assignee Identifier Code'
+        self.identifier_code.metadata.compliance_category = ComplianceCategories.BANK.value
+        self.identifier_code.metadata.label = f&quot;{self.metadata.display_name} - Identifier code&quot;
+        self.metadata.rule_type = RuleTypes.NAME_ADDRESS.value
+        self.metadata.compliance_category = ComplianceCategories.BANK.value
+        self.name.metadata.compliance_category = self.metadata.compliance_category
+        self.name.metadata.label = f&quot;{self.metadata.display_name} - Name&quot;
+        self.address.metadata.compliance_category = ComplianceCategories.LOCATION.value
+        self.address.metadata.label = f&quot;{self.metadata.display_name} - Address&quot;
+        self.country.metadata.compliance_category = ComplianceCategories.LOCATION.value
+        self.country.metadata.label = f&quot;{self.metadata.display_name} - Country&quot;
+
+</code></pre>
+<p>Add the following line in field_keys.py</p>
+<pre><code>ASSIGNEE = &quot;assignee&quot;
+
+</code></pre>
+<p><strong>Note:</strong> Once made all the necessary changes we need to update the version in setup.py</p>
+<pre><code>
+    setups = [
+        {
+            'name': 'tradefinance',
+            'version': '0.1.8.13',
+            'description': 'A Trade Finance CDM package',
+            'url': '',
+            'author': 'Cleareye.ai',
+            'author_email': 'info@cleareye.ai',
+            'license': 'CE',
+            'packages': find_packages(),
+            'include_package_data': True,
+            'install_requires': [
+                &quot;word2number==1.1&quot;,
+                &quot;quantulum3&gt;=0.7.10&quot;,
+                &quot;python-dateutil&quot;,
+                &quot;iso-639==0.4.5&quot;,
+                &quot;pycountry==22.3.5&quot;,
+                &quot;price-parser==0.3.4&quot;,
+                &quot;currency-symbols==2.0.1&quot;,
+                &quot;numpy&quot;,
+
+                &quot;pandas&gt;=1.1.5&quot;,
+                &quot;scikit-learn&gt;=0.24.2&quot;,
+                &quot;more-itertools&gt;=8.13.0&quot;,
+                &quot;seldon-core&gt;=1.11.2&quot;,
+                &quot;nltk==3.8.1&quot;
+            ],
+            'zip_safe': False,
+            'script_args': ['bdist_wheel']
+        }
+    ]
+
+
+</code></pre>
+<p>Table information in lc_document_extraction.</p>
+<p>Refer this PR </p>
+<pre><code>
+https://dev.azure.com/marvelspace/Trade%20Finance/_git/ce-cdm/pullrequest/37111
+
+</code></pre>
+<p><a class="glightbox" href="../images/cdm_data_extraction_table_metadata.png" data-type="image" data-width="100%" data-height="auto" data-desc-position="bottom"><img alt="Use Case" src="../images/cdm_data_extraction_table_metadata.png" /></a></p>
+<h3 id="use-case-2-add-document-to-cdm">Use Case 2: Add document to CDM<a class="headerlink" href="#use-case-2-add-document-to-cdm" title="Permanent link">&para;</a></h3>
+<p>To add the MT400 series to the Common Data Model (CDM), you need to update three files: document_metadata.py, document_fields.py, and document_keys.py.</p>
+<pre><code>tradefinance/
+├── application/
+│   └── documents/
+│       ├── mt400.py
+│       ├── mt410.py
+│       └── mt412.py
+└── common/
+    └── enumerators/
+        └── short_keys.py
+
+
+</code></pre>
+<p>Content of mt400.py:</p>
+<pre><code>
+from tradefinance.application.documents.base_document import BaseDocument
+from tradefinance.common.constants.document_keys import MT400 as MT400KEY
+
+class MT400(BaseDocument):
+    &quot;&quot;&quot;
+    MT400
+    &quot;&quot;&quot;
+    def __init__(self) -&gt; None:
+        super().__init__(MT400KEY)
+
+</code></pre>
+<p>Content of mt410.py:</p>
+<pre><code>
+from tradefinance.application.documents.base_document import BaseDocument
+from tradefinance.common.constants.document_keys import MT410 as MT410KEY
+
+class MT410(BaseDocument):
+    &quot;&quot;&quot;
+    MT410
+    &quot;&quot;&quot;
+    def __init__(self) -&gt; None:
+        super().__init__(MT410KEY)
+
+</code></pre>
+<p>Content of mt412.py:</p>
+<pre><code>from tradefinance.application.documents.base_document import BaseDocument
+from tradefinance.common.constants.document_keys import MT412 as MT412KEY
+
+class MT412(BaseDocument):
+    &quot;&quot;&quot;
+    MT412
+    &quot;&quot;&quot;
+    def __init__(self) -&gt; None:
+        super().__init__(MT412KEY)
+
+</code></pre>
+<p>Content of short_keys.py (after adding MT 400 series):</p>
+<pre><code># Other existing enumerators...
+
+# Add MT 400 series
+MT400 = &quot;MT400&quot;
+MT410 = &quot;MT410&quot;
+MT412 = &quot;MT412&quot;
+MT416 = &quot;MT416&quot;
+MT420 = &quot;MT420&quot;
+MT422 = &quot;MT422&quot;
+MT430 = &quot;MT430&quot;
+MT490 = &quot;MT490&quot;
+MT491 = &quot;MT491&quot;
+MT492 = &quot;MT492&quot;
+MT499 = &quot;MT499&quot;
+
+</code></pre>
+<h3 id="use-case-3-map-fields-to-the-document-packing-list">Use Case 3: Map fields to the document Packing list<a class="headerlink" href="#use-case-3-map-fields-to-the-document-packing-list" title="Permanent link">&para;</a></h3>
+<p>To add fields to the existing document "Packing List," you'll need to modify the documents_fields.py by adding the necessary fields
+1.These are the list of new fields to add:</p>
+<p><a class="glightbox" href="../images/cmd_usecase3.png" data-type="image" data-width="100%" data-height="auto" data-desc-position="bottom"><img alt="Use Case" src="../images/cmd_usecase3.png" /></a></p>
+<pre><code>
+ tradefinance/
+├── common/
+│   └── constants/
+│       ├── document_metadata.py
+│       ├── document_fields.py
+│       └── document_keys.py
+└── setup.py
+
+</code></pre>
+<p>Content of document_metadata.py:</p>
+<pre><code>PACKING_LIST = {
+    &quot;key&quot;: &quot;PACKING_LIST&quot;,
+    &quot;display_name&quot;: &quot;Packing List&quot;,
+    &quot;short_key&quot;: &quot;PL&quot;,
+    &quot;document_type_id&quot;: 5,
+    &quot;document_group_id&quot;: DocumentGroups.INVOICE.value,
+    &quot;sequence&quot;: 40,
+    &quot;is_supported&quot;: True
+}
+
+</code></pre>
+<p>Content of document_fields.py:</p>
+<pre><code>from collections import OrderedDict
+from tradefinance.common.constants.fields import Fields
+
+PACKING_LIST = OrderedDict([
+    (Fields.CARRIER, {
+        &quot;field_order&quot;: 230,
+        &quot;is_mandatory&quot;: True,
+    }),
+    (Fields.ISSUING_BANK, {
+        &quot;field_order&quot;: 235,
+        &quot;auto_extracted&quot;: True,
+        &quot;is_mandatory&quot;: True,
+    }),
+    (Fields.MANUFACTURER, {
+        &quot;field_order&quot;: 240,
+        &quot;is_mandatory&quot;: True,
+    }),
+    (Fields.PLACE_OF_DELIVERY, {
+        &quot;field_order&quot;: 245,
+        &quot;auto_extracted&quot;: True,
+        &quot;is_mandatory&quot;: True,
+    }),
+    (Fields.PLACE_OF_RECEIPT, {
+        &quot;field_order&quot;: 250,
+        &quot;auto_extracted&quot;: True,
+        &quot;is_mandatory&quot;: True,
+    }),
+    (Fields.ISSUING_BANK, {
+        &quot;field_order&quot;: 255,
+        &quot;auto_extracted&quot;: True,
+        &quot;is_mandatory&quot;: True,
+    }),
+])
+
+</code></pre>
+<p>Content of document_keys.py:</p>
+<pre><code>PACKING_LIST = &quot;packing_list&quot;
+
+</code></pre>
+<p>Content of setup.py (after upgrading version):</p>
+<pre><code># Existing content of setup.py
+
+VERSION = 'x.x.x'
+</code></pre>
+<h3 id="use-case-4-removingreplace-a-field-from-a-document">Use Case 4: Removing/Replace a field from a document<a class="headerlink" href="#use-case-4-removingreplace-a-field-from-a-document" title="Permanent link">&para;</a></h3>
+<p>To update/remove a field from the existing document "Packing List," you need to remove the corresponding attribute from the PackingList class. Let's say we want to replace "Buyer" and "Seller" in the "Packing List" document with "Drawer" and "Drawee" respectively.
+Refer
+https://dev.azure.com/marvelspace/Trade%20Finance/_git/ce-cdm/pullrequest/36770</p>
+<p>/tradefinance/common/constants/documents_fields.py</p>
+<p>Use Cases 5:  Get CDM template of a document
+If you want to retrieve a template of fields for each document type specified in the input file.It reads the input file, retrieves document names and associated fields, and then maps them to display names of fields in the Common Data Model (CDM).</p>
+<div class="tabbed-set tabbed-alternate" data-tabs="1:2"><input checked="checked" id="__tabbed_1_1" name="__tabbed_1" type="radio" /><input id="__tabbed_1_2" name="__tabbed_1" type="radio" /><div class="tabbed-labels"><label for="__tabbed_1_1">Unix, Powershell</label><label for="__tabbed_1_2">Output </label></div>
+<div class="tabbed-content">
+<div class="tabbed-block">
+<pre><code>import json
+from pprint import pprint
+
+from tradefinance.application.operations.services.fields_service import FieldsService
+from tradefinance.common.enumerators.documents import Documents
+
+if __name__=="__main__":
+    f = open('rule_enabled_field.json')
+    data = json.load(f)
+    doc_check_lite = data['doc_exam']
+    final_data = {}
+
+    for doc in doc_check_lite:
+    document_name = doc
+    for d_ in Documents:
+        if d_.value['key'] == document_name:
+        fields = FieldsService(document=d_).get_all_fields_metadata()
+        final_data[document_name] = {}
+        doc_fields = doc_check_lite[doc]
+        for doc_field in doc_fields:
+            for cdm_field in fields:
+                if cdm_field['key'] == doc_field:
+                    final_data[document_name][doc_field] = cdm_field['display_name']
+                    break
+
+    pprint(final_data)
+</code></pre>
+</div>
+<div class="tabbed-block">
+<p><code>{'airway_bill': {'agent': 'Agent',
+             'airport_of_arrival': 'Airport of arrival',
+             'airport_of_departure': 'Airport of departure',
+             'amount': 'Amount',
+             'amount_in_words': 'Amount In Words',
+             'awb_number': 'AWB Number',
+             'carrier': 'Carrier',
+             'consignee': 'Consignee',
+             'correction_authenticated_by': 'Correction Authenticated By',
+             'correction_evidenced': 'Correction Evidenced',
+             'correction_with_sign_seal': 'Correction',
+             'costs_additional_to_freight': 'Costs Additional to Freight',
+             'date_of_issue': 'Date of issue',
+             'defective_identifier': 'Defective Identifier',
+             'description_of_goods': 'Description of goods',
+             'document_issued_in': 'Document Issued In',
+             'document_title': 'Document title',
+             'endorsement': 'Endorsement',
+             'executed_date': 'Executed date',
+             'flight_date': 'Flight date',
+             'flight_number': 'Flight Number',
+             'formerly_known_as': 'Formerly Known As',
+             'freight_payable': 'Freight',
+             'goods_accepted_for_carriage': 'Goods Accepted for Carriage',
+             'gross_weight': 'Gross weight',
+             'incoterm': 'Incoterm',
+             'invoice_number': 'Invoice number',
+             'is_issued_for_consignor_or_shipper': 'Issued for Consignor '
+                                                   'or Shipper',
+             'is_original': 'Original',
+             'issuer': 'Issuer',
+             'issuing_bank': 'Issuing Bank',
+             'language_of_document': 'Language of document',
+             'lc_issuance_date': 'LC issuance date',
+             'lc_number': 'LC Number',
+             'legalized': 'Legalized/visaed/certified as per LC',
+             'missing_pages_in_document': 'Missing Pages in Document',
+             'net_weight': 'Net Weight',
+             'notation_flight_date': 'Notation flight date',
+             'notify_party': 'Notify Party',
+             'number_of_originals': 'Number of originals',
+             'place_of_delivery': 'Place of delivery',
+             'place_of_receipt': 'Place of receipt',
+             'purchase_order_number': 'Purchase Order Number',
+             'purpose_of_document_as_per_lc': 'Purpose of document as per '
+                                              'LC',
+             'shipper': 'Shipper',
+             'shipping_marks': 'Shipping Marks',
+             'signature': 'Signature',
+             'signed_as': 'Signed As',
+             'signed_by': 'Signed By',
+             'signed_for': 'Signed For',
+             'statement_clause_as_per_lc': 'Statement Clause as per LC',
+             'terms_and_conditions': 'Terms and Conditions'},
+     'beneficiary_certificate': {'amount': 'Amount',
+                         'amount_in_words': 'Amount In Words',
+                         'beneficiary': 'Beneficiary',
+                         'beneficiary_confirmation_date': 'Beneficiary '
+                                                          'Confirmation '
+                                                          'Date',
+                         'consignor': 'Consignor',
+                         'correction_authenticated_by': 'Correction '
+                                                        'Authenticated By',
+                         'correction_evidenced': 'Correction Evidenced',
+                         'correction_with_sign_seal': 'Correction',
+                         'costs_additional_to_freight': 'Costs Additional '
+                                                        'to Freight',
+                         'country_of_origin': 'Country of origin',
+                         'date_of_issue': 'Date of issue',
+                         'date_of_signature': 'Date of Signature',
+                         'description_of_goods': 'Description of goods',
+                         'document_dispatched_date': 'Document Dispatched '
+                                                     'Date',
+                         'document_issued_in': 'Document Issued In',
+                         'document_title': 'Document title',
+                         'exporter': 'Exporter',
+                         'freight_payable': 'Freight',
+                         'gross_weight': 'Gross weight',
+                         'incoterm': 'Incoterm',
+                         'inspection_evidenced': 'Inspection Evidenced',
+                         'invoice_date': 'Invoice Date',
+                         'invoice_number': 'Invoice number',
+                         'issuer': 'Issuer',
+                         'issuing_bank': 'Issuing Bank',
+                         'language_of_document': 'Language of document',
+                         'lc_issuance_date': 'LC issuance date',
+                         'lc_number': 'LC Number',
+                         'legalized': 'Legalized/visaed/certified as per '
+                                      'LC',
+                         'manufacturer': 'Manufacturer',
+                         'measurement': 'Measurement',
+                         'missing_pages_in_document': 'Missing Pages in '
+                                                      'Document',
+                         'net_weight': 'Net Weight',
+                         'place_of_issue': 'Place of issue',
+                         'place_of_receipt': 'Place of receipt',
+                         'port_of_loading': 'Port of Loading',
+                         'proof_of_dispatch': 'Proof of Dispatch',
+                         'purchase_order_number': 'Purchase Order Number',
+                         'purpose_of_document_as_per_lc': 'Purpose of '
+                                                          'document as per '
+                                                          'LC',
+                         'route_from': 'Route From',
+                         'route_to': 'Route To',
+                         'seal': 'Seal',
+                         'shipping_marks': 'Shipping Marks',
+                         'signature': 'Signature',
+                         'signed_by': 'Signed By',
+                         'signed_for': 'Signed For',
+                         'statement_clause_as_per_lc': 'Statement Clause '
+                                                       'as per LC'},
+     'bill_of_exchange': {'amount': 'Amount',
+                  'amount_in_words': 'Amount In Words',
+                  'cip_amount': 'CIP Amount',
+                  'correction_authenticated_by': 'Correction Authenticated '
+                                                 'By',
+                  'correction_evidenced': 'Correction Evidenced',
+                  'correction_with_sign_seal': 'Correction',
+                  'country_of_origin': 'Country of origin',
+                  'date_of_issue': 'Date of issue',
+                  'date_of_signature': 'Date of Signature',
+                  'description_of_goods': 'Description of goods',
+                  'document_issued_in': 'Document Issued In',
+                  'document_title': 'Document title',
+                  'drawee': 'Drawee',
+                  'drawer': 'Drawer',
+                  'endorsed_by': 'Endorsed By',
+                  'endorsed_to': 'Endorsed in favor of',
+                  'endorsement': 'Endorsement',
+                  'exporter': 'Exporter',
+                  'formerly_known_as': 'Formerly Known As',
+                  'incoterm': 'Incoterm',
+                  'invoice_number': 'Invoice number',
+                  'issuer': 'Issuer',
+                  'issuing_bank': 'Issuing Bank',
+                  'language_of_document': 'Language of document',
+                  'lc_issuance_date': 'LC issuance date',
+                  'lc_number': 'LC Number',
+                  'legalized': 'Legalized/visaed/certified as per LC',
+                  'manufacturer': 'Manufacturer',
+                  'maturity_date': 'Maturity Date',
+                  'measurement': 'Measurement',
+                  'missing_pages_in_document': 'Missing Pages in Document',
+                  'payee_name': 'Payee',
+                  'place_of_receipt': 'Place of receipt',
+                  'port_of_loading': 'Port of Loading',
+                  'purchase_order_number': 'Purchase Order Number',
+                  'purpose_of_document_as_per_lc': 'Purpose of document as '
+                                                   'per LC',
+                  'seal': 'Seal',
+                  'shipping_marks': 'Shipping Marks',
+                  'signature': 'Signature',
+                  'signed_for': 'Signed For',
+                  'statement_clause_as_per_lc': 'Statement Clause as per '
+                                                'LC',
+                  'tenor': 'Tenor'},
+     'bill_of_lading': {'agent': 'Agent',
+                'amount': 'Amount',
+                'amount_in_words': 'Amount In Words',
+                'bl_number': 'BL Number',
+                'carrier': 'Carrier',
+                'consignee': 'Consignee',
+                'contract_number': 'Contract Number',
+                'correction_authenticated_by': 'Correction Authenticated '
+                                               'By',
+                'correction_evidenced': 'Correction Evidenced',
+                'correction_with_sign_seal': 'Correction',
+                'costs_additional_to_freight': 'Costs Additional to '
+                                               'Freight',
+                'date_of_issue': 'Date of issue',
+                'defective_identifier': 'Defective Identifier',
+                'description_of_goods': 'Description of goods',
+                'document_issued_in': 'Document Issued In',
+                'document_title': 'Document title',
+                'endorsed_by': 'Endorsed By',
+                'endorsed_to': 'Endorsed in favor of',
+                'endorsement': 'Endorsement',
+                'formerly_known_as': 'Formerly Known As',
+                'freight_payable': 'Freight',
+                'gross_weight': 'Gross weight',
+                'incoterm': 'Incoterm',
+                'invoice_number': 'Invoice number',
+                'is_transshipment': 'Transhipment',
+                'issuer': 'Issuer',
+                'issuing_bank': 'Issuing Bank',
+                'language_of_document': 'Language of document',
+                'lc_issuance_date': 'LC issuance date',
+                'lc_number': 'LC Number',
+                'legalized': 'Legalized/visaed/certified as per LC',
+                'missing_pages_in_document': 'Missing Pages in Document',
+                'net_weight': 'Net Weight',
+                'notify_party': 'Notify Party',
+                'number_of_originals': 'Number of originals',
+                'on_deck_cargo': 'On Deck Cargo',
+                'onboard_date': 'Onboard Date',
+                'onboard_notation_port_of_discharge': 'Onboard Notation '
+                                                      'Port of Discharge',
+                'onboard_notation_port_of_loading': 'Onboard Notation Port '
+                                                    'of loading',
+                'onboard_notation_vessel': 'Onboard Notation Vessel',
+                'place_of_delivery': 'Place of delivery',
+                'place_of_discharge': 'Place of Discharge',
+                'place_of_receipt': 'Place of receipt',
+                'port_of_discharge': 'Port of Discharge',
+                'port_of_loading': 'Port of Loading',
+                'pre_printed_shipping_clause': 'Pre-printed Shipping '
+                                               'Clause',
+                'purchase_order_number': 'Purchase Order Number',
+                'purpose_of_document_as_per_lc': 'Purpose of document as '
+                                                 'per LC',
+                'sales_order_number': 'Sales order number',
+                'seal': 'Seal',
+                'shipper': 'Shipper',
+                'shipping_marks': 'Shipping Marks',
+                'signature': 'Signature',
+                'signed_as': 'Signed As',
+                'signed_by': 'Signed By',
+                'signed_for': 'Signed For',
+                'statement_clause_as_per_lc': 'Statement Clause as per LC',
+                'surrender_clause': 'Surrender Clause BL Nos',
+                'surrender_clause_for_release_of_goods': 'Surrender Clause '
+                                                         'for Release of '
+                                                         'Goods',
+                'terms_and_conditions': 'Terms and Conditions',
+                'vessel': 'Vessel',
+                'voyage_number': 'Voyage Number'},
+     'certificate_of_analysis': {'amount': 'Amount',
+                         'amount_in_words': 'Amount In Words',
+                         'beneficiary': 'Beneficiary',
+                         'consignor': 'Consignor',
+                         'correction_authenticated_by': 'Correction '
+                                                        'Authenticated By',
+                         'correction_evidenced': 'Correction Evidenced',
+                         'correction_with_sign_seal': 'Correction',
+                         'costs_additional_to_freight': 'Costs Additional '
+                                                        'to Freight',
+                         'country_of_origin': 'Country of origin',
+                         'date_of_issue': 'Date of issue',
+                         'date_of_signature': 'Date of Signature',
+                         'description_of_goods': 'Description of goods',
+                         'document_issued_in': 'Document Issued In',
+                         'document_title': 'Document title',
+                         'exporter': 'Exporter',
+                         'freight_payable': 'Freight',
+                         'gross_weight': 'Gross weight',
+                         'incoterm': 'Incoterm',
+                         'inspection_evidenced': 'Inspection Evidenced',
+                         'invoice_date': 'Invoice Date',
+                         'invoice_number': 'Invoice number',
+                         'issuer': 'Issuer',
+                         'issuing_bank': 'Issuing Bank',
+                         'lc_issuance_date': 'LC issuance date',
+                         'lc_number': 'LC Number',
+                         'legalized': 'Legalized/visaed/certified as per '
+                                      'LC',
+                         'manufacturer': 'Manufacturer',
+                         'missing_pages_in_document': 'Missing Pages in '
+                                                      'Document',
+                         'net_weight': 'Net Weight',
+                         'place_of_issue': 'Place of issue',
+                         'place_of_receipt': 'Place of receipt',
+                         'port_of_loading': 'Port of Loading',
+                         'purchase_order_number': 'Purchase Order Number',
+                         'purpose_of_document_as_per_lc': 'Purpose of '
+                                                          'document as per '
+                                                          'LC',
+                         'route_from': 'Route From',
+                         'route_to': 'Route To',
+                         'seal': 'Seal',
+                         'shipping_marks': 'Shipping Marks',
+                         'signature': 'Signature',
+                         'signed_for': 'Signed For',
+                         'statement_clause_as_per_lc': 'Statement Clause '
+                                                       'as per LC'},
+     'certificate_of_conformity': {'issuer': 'Issuer', 'seal': 'Seal'},
+     'certificate_of_health': {'language_of_document': 'Language of document'},
+     'certificate_of_origin': {'amount': 'Net Amount',
+                       'amount_in_words': 'Amount In Words',
+                       'applicant': 'Applicant',
+                       'beneficiary': 'Beneficiary',
+                       'buyer': 'Buyer',
+                       'consignee': 'Consignee',
+                       'consignor': 'Consignor',
+                       'correction_authenticated_by': 'Correction '
+                                                      'Authenticated By',
+                       'correction_evidenced': 'Correction Evidenced',
+                       'correction_with_sign_seal': 'Correction',
+                       'costs_additional_to_freight': 'Costs Additional to '
+                                                      'Freight',
+                       'country_of_origin': 'Country of origin',
+                       'date_of_issue': 'Date of issue',
+                       'date_of_signature': 'Date of Signature',
+                       'description_of_goods': 'Description of goods',
+                       'document_issued_in': 'Document Issued In',
+                       'document_title': 'Document title',
+                       'exporter': 'Exporter',
+                       'freight_payable': 'Freight',
+                       'gross_weight': 'Gross weight',
+                       'incoterm': 'Incoterm',
+                       'inspection_evidenced': 'Inspection Evidenced',
+                       'invoice_date': 'Invoice Date',
+                       'invoice_number': 'Invoice number',
+                       'issued_to': 'Issued to',
+                       'issuer': 'Issuer',
+                       'issuing_authority': 'Issuing Authority',
+                       'issuing_bank': 'Issuing Bank',
+                       'language_of_document': 'Language of document',
+                       'lc_issuance_date': 'LC issuance date',
+                       'lc_number': 'LC Number',
+                       'legalized': 'Legalized/visaed/certified as per LC',
+                       'manufacturer': 'Manufacturer',
+                       'missing_pages_in_document': 'Missing Pages in '
+                                                    'Document',
+                       'net_weight': 'Net Weight',
+                       'place_of_issue': 'Place of issue',
+                       'place_of_receipt': 'Place of receipt',
+                       'purchase_order_number': 'Purchase Order Number',
+                       'purpose_of_document_as_per_lc': 'Purpose of '
+                                                        'document as per '
+                                                        'LC',
+                       'route_from': 'Route From',
+                       'route_to': 'Route To',
+                       'seal': 'Seal',
+                       'shipping_marks': 'Shipping Marks',
+                       'signature': 'Signature',
+                       'signed_for': 'Signed For',
+                       'statement_clause_as_per_lc': 'Statement Clause as '
+                                                     'per LC',
+                       'tenor': 'Tenor'},
+     'certificate_of_phytosanitary': {'language_of_document': 'Language of '
+                                                      'document'},
+     'certificate_of_quality': {'amount': 'Amount',
+                        'amount_in_words': 'Amount In Words',
+                        'beneficiary': 'Beneficiary',
+                        'consignor': 'Consignor',
+                        'correction_authenticated_by': 'Correction '
+                                                       'Authenticated By',
+                        'correction_evidenced': 'Correction Evidenced',
+                        'correction_with_sign_seal': 'Correction',
+                        'costs_additional_to_freight': 'Costs Additional '
+                                                       'to Freight',
+                        'country_of_origin': 'Country of origin',
+                        'date_of_issue': 'Date of issue',
+                        'date_of_signature': 'Date of Signature',
+                        'description_of_goods': 'Description of goods',
+                        'document_issued_in': 'Document Issued In',
+                        'document_title': 'Document title',
+                        'exporter': 'Exporter',
+                        'freight_payable': 'Freight',
+                        'gross_weight': 'Gross weight',
+                        'incoterm': 'Incoterm',
+                        'inspection_evidenced': 'Inspection Evidenced',
+                        'invoice_date': 'Invoice Date',
+                        'invoice_number': 'Invoice number',
+                        'issuer': 'Issuer',
+                        'issuing_bank': 'Issuing Bank',
+                        'lc_issuance_date': 'LC issuance date',
+                        'lc_number': 'LC Number',
+                        'legalized': 'Legalized/visaed/certified as per LC',
+                        'manufacturer': 'Manufacturer',
+                        'missing_pages_in_document': 'Missing Pages in '
+                                                     'Document',
+                        'net_weight': 'Net Weight',
+                        'place_of_issue': 'Place of issue',
+                        'place_of_receipt': 'Place of receipt',
+                        'port_of_loading': 'Port of Loading',
+                        'purchase_order_number': 'Purchase Order Number',
+                        'purpose_of_document_as_per_lc': 'Purpose of '
+                                                         'document as per '
+                                                         'LC',
+                        'route_from': 'Route From',
+                        'route_to': 'Route To',
+                        'seal': 'Seal',
+                        'shipping_marks': 'Shipping Marks',
+                        'signature': 'Signature',
+                        'signed_for': 'Signed For',
+                        'statement_clause_as_per_lc': 'Statement Clause as '
+                                                      'per LC',
+                        'tenor': 'Tenor'},
+     'certificate_of_quantity': {'correction_evidenced': 'Correction Evidenced',
+                         'date_of_issue': 'Date of issue',
+                         'date_of_signature': 'Date of Signature',
+                         'lc_issuance_date': 'LC issuance date',
+                         'lc_number': 'LC Number',
+                         'place_of_issue': 'Place of issue'},
+     'certificate_of_weight': {'correction_evidenced': 'Correction Evidenced',
+                       'issuer': 'Issuer',
+                       'language_of_document': 'Language of document'},
+     'charter_party_bill_of_lading': {'agent': 'Agent',
+                              'amount': 'Amount',
+                              'amount_in_words': 'Amount In Words',
+                              'bl_number': 'BL Number',
+                              'charterer_name': 'Charterer Name',
+                              'consignee': 'Consignee',
+                              'correction_authenticated_by': 'Correction '
+                                                             'Authenticated '
+                                                             'By',
+                              'correction_evidenced': 'Correction '
+                                                      'Evidenced',
+                              'correction_with_sign_seal': 'Correction',
+                              'costs_additional_to_freight': 'Costs '
+                                                             'Additional '
+                                                             'to Freight',
+                              'date_of_issue': 'Date of issue',
+                              'defective_identifier': 'Defective '
+                                                      'Identifier',
+                              'description_of_goods': 'Description of '
+                                                      'goods',
+                              'document_issued_in': 'Document Issued In',
+                              'document_title': 'Document title',
+                              'endorsed_by': 'Endorsed By',
+                              'endorsed_to': 'Endorsed in favor of',
+                              'endorsement': 'Endorsement',
+                              'formerly_known_as': 'Formerly Known As',
+                              'freight_payable': 'Freight',
+                              'incoterm': 'Incoterm',
+                              'is_transshipment': 'Transhipment',
+                              'issuer': 'Issuer',
+                              'issuing_bank': 'Issuing Bank',
+                              'language_of_document': 'Language of '
+                                                      'document',
+                              'lc_issuance_date': 'LC issuance date',
+                              'lc_number': 'LC Number',
+                              'legalized': 'Legalized/visaed/certified as '
+                                           'per LC',
+                              'missing_pages_in_document': 'Missing Pages '
+                                                           'in Document',
+                              'notify_party': 'Notify Party',
+                              'number_of_originals': 'Number of originals',
+                              'on_deck_cargo': 'On Deck Cargo',
+                              'onboard_date': 'Onboard Date',
+                              'onboard_notation_port_of_discharge': 'Onboard '
+                                                                    'Notation '
+                                                                    'Port '
+                                                                    'of '
+                                                                    'Discharge',
+                              'onboard_notation_port_of_loading': 'Onboard '
+                                                                  'Notation '
+                                                                  'Port of '
+                                                                  'loading',
+                              'onboard_notation_vessel': 'Onboard Notation '
+                                                         'Vessel',
+                              'owner_name': 'Owner Name',
+                              'place_of_delivery': 'Place of delivery',
+                              'place_of_receipt': 'Place of receipt',
+                              'port_of_discharge': 'Port of Discharge',
+                              'port_of_loading': 'Port of Loading',
+                              'pre_printed_shipping_clause': 'Pre-printed '
+                                                             'Shipping '
+                                                             'Clause',
+                              'purchase_order_number': 'Purchase Order '
+                                                       'Number',
+                              'purpose_of_document_as_per_lc': 'Purpose of '
+                                                               'document '
+                                                               'as per LC',
+                              'shipper': 'Shipper',
+                              'shipping_marks': 'Shipping Marks',
+                              'signature': 'Signature',
+                              'signed_as': 'Signed As',
+                              'signed_by': 'Signed By',
+                              'signed_for': 'Signed For',
+                              'statement_clause_as_per_lc': 'Statement '
+                                                            'Clause as per '
+                                                            'LC',
+                              'surrender_clause': 'Surrender Clause BL Nos',
+                              'surrender_clause_for_release_of_goods': 'Surrender '
+                                                                       'Clause '
+                                                                       'for '
+                                                                       'Release '
+                                                                       'of '
+                                                                       'Goods',
+                              'vessel': 'Vessel',
+                              'voyage_number': 'Voyage Number'},
+     'commercial_invoice': {'advance_amount': 'Advance Amount',
+                    'amount': 'Net Amount',
+                    'amount_in_words': 'Amount In Words',
+                    'applicant': 'Applicant',
+                    'awb_number': 'AWB Number',
+                    'beneficiary': 'Beneficiary',
+                    'bl_number': 'BL Number',
+                    'buyer': 'Buyer',
+                    'cif_amount': 'CIF Amount',
+                    'cip_amount': 'CIP Amount',
+                    'consignee': 'Consignee',
+                    'contract_number': 'Contract Number',
+                    'correction_authenticated_by': 'Correction '
+                                                   'Authenticated By',
+                    'correction_evidenced': 'Correction Evidenced',
+                    'correction_with_sign_seal': 'Correction',
+                    'counter_signature_clause': 'Counter Signature Clause',
+                    'counter_signed_by': 'Counter Signed By',
+                    'country_of_origin': 'Country of origin',
+                    'date_of_issue': 'Date of issue',
+                    'date_of_signature': 'Date of Signature',
+                    'deductions': 'Deductions',
+                    'deductions_as_per_lc': 'Deductions as per LC',
+                    'description_of_goods': 'Description of goods',
+                    'discount_amount': 'Discount amount',
+                    'document_issued_in': 'Document Issued In',
+                    'document_title': 'Document title',
+                    'drawee': 'Drawee',
+                    'drawer': 'Drawer',
+                    'exporter': 'Exporter',
+                    'formerly_known_as': 'Formerly Known As',
+                    'freight_charges': 'Freight charges',
+                    'freight_payable': 'Freight',
+                    'gross_weight': 'Gross weight',
+                    'hs_code': 'HS code',
+                    'importer': 'Importer',
+                    'incoterm': 'Incoterm',
+                    'inspection_evidenced': 'Inspection Evidenced',
+                    'insurance_charges': 'Insurance Charges',
+                    'invoice_date': 'Invoice Date',
+                    'invoice_number': 'Invoice number',
+                    'issued_to': 'Issued to',
+                    'issuer': 'Issuer',
+                    'issuing_bank': 'Issuing Bank',
+                    'language_of_document': 'Language of document',
+                    'lc_issuance_date': 'LC issuance date',
+                    'lc_number': 'LC Number',
+                    'legalized': 'Legalized/visaed/certified as per LC',
+                    'manufacturer': 'Manufacturer',
+                    'missing_pages_in_document': 'Missing Pages in '
+                                                 'Document',
+                    'net_weight': 'Net Weight',
+                    'notify_party': 'Notify Party',
+                    'place_of_discharge': 'Place of Discharge',
+                    'place_of_receipt': 'Place of receipt',
+                    'port_of_discharge': 'Port of Discharge',
+                    'port_of_loading': 'Port of Loading',
+                    'proforma_invoice': 'Proforma Invoice',
+                    'purchase_order_number': 'Purchase Order Number',
+                    'purpose_of_document_as_per_lc': 'Purpose of document '
+                                                     'as per LC',
+                    'sales_order_number': 'Sales order number',
+                    'seal': 'Seal',
+                    'shipment_date': 'Shipment Date',
+                    'shipping_marks': 'Shipping Marks',
+                    'signature': 'Signature',
+                    'signed_by': 'Signed By',
+                    'signed_for': 'Signed For',
+                    'statement_clause_as_per_lc': 'Statement Clause as per '
+                                                  'LC',
+                    'tenor': 'Tenor',
+                    'total_gross_amount': 'Gross Amount',
+                    'total_weight': 'Total Weight',
+                    'vessel': 'Vessel',
+                    'voyage_number': 'Voyage Number'},
+     'compliance_certificate': {'issuer': 'Issuer', 'lc_number': 'LC Number'},
+     'cover_letter': {'amount': 'Amount',
+              'amount_in_words': 'Amount In Words',
+              'applicant': 'Applicant',
+              'bank': 'Negotiating Bank',
+              'beneficiary': 'Beneficiary',
+              'date_of_issue': 'Date of issue',
+              'issuing_bank': 'Issuing Bank',
+              'lc_number': 'LC Number',
+              'pay_to': 'Pay To',
+              'presentation_date': 'Presentation Date',
+              'presentation_date_confirmation': 'Presentation date '
+                                                'confirmation',
+              'tenor': 'Tenor'},
+     'customs_invoice': {'document_title': 'Document title'},
+     'declaration': {'issuer': 'Issuer',
+             'signature': 'Signature',
+             'signed_for': 'Signed For'},
+     'fcr': {'amount': 'Amount',
+         'amount_in_words': 'Amount In Words',
+         'bl_number': 'BL Number',
+         'cargo_received_date': 'Cargo Received Date',
+         'consignee': 'Consignee',
+         'contract_number': 'Contract Number',
+         'correction_authenticated_by': 'Correction Authenticated By',
+         'correction_evidenced': 'Correction Evidenced',
+         'correction_with_sign_seal': 'Correction',
+         'costs_additional_to_freight': 'Costs Additional to Freight',
+         'date_of_issue': 'Date of issue',
+         'defective_identifier': 'Defective Identifier',
+         'description_of_goods': 'Description of goods',
+         'document_issued_in': 'Document Issued In',
+         'document_title': 'Document title',
+         'endorsed_by': 'Endorsed By',
+         'endorsed_to': 'Endorsed in favor of',
+         'endorsement': 'Endorsement',
+         'fcr_number': 'FCR Number',
+         'formerly_known_as': 'Formerly Known As',
+         'freight_payable': 'Freight',
+         'gross_weight': 'Gross weight',
+         'incoterm': 'Incoterm',
+         'invoice_number': 'Invoice number',
+         'is_transshipment': 'Transhipment',
+         'issuer': 'Issuer',
+         'issuing_bank': 'Issuing Bank',
+         'language_of_document': 'Language of document',
+         'lc_issuance_date': 'LC issuance date',
+         'lc_number': 'LC Number',
+         'legalized': 'Legalized/visaed/certified as per LC',
+         'missing_pages_in_document': 'Missing Pages in Document',
+         'net_weight': 'Net Weight',
+         'notify_party': 'Notify Party',
+         'on_deck_cargo': 'On Deck Cargo',
+         'onboard_date': 'Onboard Date',
+         'onboard_notation_vessel': 'Onboard Notation Vessel',
+         'place_of_delivery': 'Place of delivery',
+         'place_of_discharge': 'Place of Discharge',
+         'place_of_receipt': 'Place of receipt',
+         'port_of_discharge': 'Port of Discharge',
+         'port_of_loading': 'Port of Loading',
+         'pre_printed_shipping_clause': 'Pre-printed Shipping Clause',
+         'purchase_order_number': 'Purchase Order Number',
+         'purpose_of_document_as_per_lc': 'Purpose of document as per LC',
+         'sailing_date': 'Sailing Date',
+         'sales_order_number': 'Sales order number',
+         'seal': 'Seal',
+         'shipment_date': 'Shipment Date',
+         'shipper': 'Shipper',
+         'shipping_marks': 'Shipping Marks',
+         'signature': 'Signature',
+         'signed_as': 'Signed As',
+         'signed_by': 'Signed By',
+         'signed_for': 'Signed For',
+         'statement_clause_as_per_lc': 'Statement Clause as per LC',
+         'total_weight': 'Total Weight',
+         'vessel': 'Vessel',
+         'voyage_number': 'Voyage Number'},
+     'fumigation_certificate': {'language_of_document': 'Language of document',
+                        'lc_number': 'LC Number'},
+     'guarantee_text': {'amount': 'Amount'},
+     'inspection_certificate': {'amount': 'Amount',
+                        'amount_in_words': 'Amount In Words',
+                        'beneficiary': 'Beneficiary',
+                        'consignor': 'Consignor',
+                        'correction_authenticated_by': 'Correction '
+                                                       'Authenticated By',
+                        'correction_evidenced': 'Correction Evidenced',
+                        'correction_with_sign_seal': 'Correction',
+                        'costs_additional_to_freight': 'Costs Additional '
+                                                       'to Freight',
+                        'country_of_origin': 'Country of origin',
+                        'date_of_issue': 'Date of issue',
+                        'date_of_signature': 'Date of Signature',
+                        'description_of_goods': 'Description of goods',
+                        'document_issued_in': 'Document Issued In',
+                        'document_title': 'Document title',
+                        'exporter': 'Exporter',
+                        'freight_payable': 'Freight',
+                        'gross_weight': 'Gross weight',
+                        'incoterm': 'Incoterm',
+                        'inspection_evidenced': 'Inspection Evidenced',
+                        'invoice_date': 'Invoice Date',
+                        'invoice_number': 'Invoice number',
+                        'issuer': 'Issuer',
+                        'issuing_bank': 'Issuing Bank',
+                        'language_of_document': 'Language of document',
+                        'lc_issuance_date': 'LC issuance date',
+                        'lc_number': 'LC Number',
+                        'legalized': 'Legalized/visaed/certified as per LC',
+                        'manufacturer': 'Manufacturer',
+                        'missing_pages_in_document': 'Missing Pages in '
+                                                     'Document',
+                        'net_weight': 'Net Weight',
+                        'place_of_issue': 'Place of issue',
+                        'place_of_receipt': 'Place of receipt',
+                        'port_of_loading': 'Port of Loading',
+                        'purchase_order_number': 'Purchase Order Number',
+                        'purpose_of_document_as_per_lc': 'Purpose of '
+                                                         'document as per '
+                                                         'LC',
+                        'route_from': 'Route From',
+                        'route_to': 'Route To',
+                        'seal': 'Seal',
+                        'shipping_marks': 'Shipping Marks',
+                        'signature': 'Signature',
+                        'signed_by': 'Signed By',
+                        'signed_for': 'Signed For',
+                        'statement_clause_as_per_lc': 'Statement Clause as '
+                                                      'per LC',
+                        'tenor': 'Tenor'},
+     'insurance_certificate': {'amount': 'Insured amount',
+                       'amount_in_words': 'Amount In Words',
+                       'are_all_risks_covered': 'All risks covered',
+                       'broker': 'Broker',
+                       'co_insurer': 'Co Insurer',
+                       'correction_authenticated_by': 'Correction '
+                                                      'Authenticated By',
+                       'correction_evidenced': 'Correction Evidenced',
+                       'correction_with_sign_seal': 'Correction',
+                       'costs_additional_to_freight': 'Costs Additional to '
+                                                      'Freight',
+                       'counter_signature_clause': 'Counter Signature '
+                                                   'Clause',
+                       'counter_signed_by': 'Counter Signed By',
+                       'counter_signed_date': 'Counter Signed Date',
+                       'date_of_issue': 'Date of issue',
+                       'date_of_signature': 'Date of Signature',
+                       'description_of_goods': 'Description of goods',
+                       'document_issued_in': 'Document Issued In',
+                       'document_title': 'Document title',
+                       'effective_date': 'Effective date',
+                       'endorsed_by': 'Endorsed By',
+                       'endorsed_to': 'Endorsed in favor of',
+                       'endorsement': 'Endorsement',
+                       'expiry_date': 'Expiry date',
+                       'franchise_or_deductible': 'Franchise or Deductible',
+                       'freight_payable': 'Freight',
+                       'gross_weight': 'Gross weight',
+                       'incoterm': 'Incoterm',
+                       'insurance_company': 'Insurance Company',
+                       'insured_party': 'Insured Party',
+                       'insurer': 'Insurer',
+                       'issuer': 'Issuer',
+                       'issuing_bank': 'Issuing Bank',
+                       'language_of_document': 'Language of document',
+                       'lc_issuance_date': 'LC issuance date',
+                       'lc_number': 'LC Number',
+                       'legalized': 'Legalized/visaed/certified as per LC',
+                       'measurement': 'Measurement',
+                       'missing_pages_in_document': 'Missing Pages in '
+                                                    'Document',
+                       'net_weight': 'Net Weight',
+                       'number_of_originals': 'Number of originals',
+                       'premium_paid': 'Premium paid as per Insurance '
+                                       'document',
+                       'purchase_order_number': 'Purchase Order Number',
+                       'purpose_of_document_as_per_lc': 'Purpose of '
+                                                        'document as per '
+                                                        'LC',
+                       'seal': 'Seal',
+                       'shipping_marks': 'Shipping Marks',
+                       'signature': 'Signature',
+                       'signed_as': 'Signed As',
+                       'signed_by': 'Signed By',
+                       'signed_for': 'Signed For',
+                       'statement_clause_as_per_lc': 'Statement Clause as '
+                                                     'per LC',
+                       'trading_name': 'Trading Name',
+                       'underwriter': 'Underwriter',
+                       'warehouse_clause': 'Warehouse to Warehouse Clause'},
+     'insurance_cover_note': {'amount': 'Insured amount',
+                      'amount_in_words': 'Amount In Words',
+                      'are_all_risks_covered': 'All risks covered',
+                      'broker': 'Broker',
+                      'co_insurer': 'Co Insurer',
+                      'correction_authenticated_by': 'Correction '
+                                                     'Authenticated By',
+                      'correction_evidenced': 'Correction Evidenced',
+                      'correction_with_sign_seal': 'Correction',
+                      'costs_additional_to_freight': 'Costs Additional to '
+                                                     'Freight',
+                      'counter_signature_clause': 'Counter Signature '
+                                                  'Clause',
+                      'counter_signed_by': 'Counter Signed By',
+                      'counter_signed_date': 'Counter Signed Date',
+                      'date_of_issue': 'Date of issue',
+                      'date_of_signature': 'Date of Signature',
+                      'description_of_goods': 'Description of goods',
+                      'document_issued_in': 'Document Issued In',
+                      'document_title': 'Document title',
+                      'effective_date': 'Effective date',
+                      'endorsed_by': 'Endorsed By',
+                      'endorsed_to': 'Endorsed in favor of',
+                      'endorsement': 'Endorsement',
+                      'expiry_date': 'Expiry date',
+                      'franchise_or_deductible': 'Franchise or Deductible',
+                      'freight_payable': 'Freight',
+                      'gross_weight': 'Gross weight',
+                      'incoterm': 'Incoterm',
+                      'insurance_company': 'Insurance Company',
+                      'insured_party': 'Insured Party',
+                      'insurer': 'Insurer',
+                      'issuer': 'Issuer',
+                      'issuing_bank': 'Issuing Bank',
+                      'lc_issuance_date': 'LC issuance date',
+                      'lc_number': 'LC Number',
+                      'legalized': 'Legalized/visaed/certified as per LC',
+                      'measurement': 'Measurement',
+                      'missing_pages_in_document': 'Missing Pages in '
+                                                   'Document',
+                      'net_weight': 'Net Weight',
+                      'number_of_originals': 'Number of originals',
+                      'premium_paid': 'Premium paid as per Insurance '
+                                      'document',
+                      'purchase_order_number': 'Purchase Order Number',
+                      'purpose_of_document_as_per_lc': 'Purpose of '
+                                                       'document as per LC',
+                      'shipping_marks': 'Shipping Marks',
+                      'signature': 'Signature',
+                      'signed_as': 'Signed As',
+                      'signed_by': 'Signed By',
+                      'signed_for': 'Signed For',
+                      'statement_clause_as_per_lc': 'Statement Clause as '
+                                                    'per LC',
+                      'trading_name': 'Trading Name',
+                      'underwriter': 'Underwriter',
+                      'warehouse_clause': 'Warehouse to Warehouse Clause'},
+     'insurance_policy': {'amount': 'Insured amount',
+                  'amount_in_words': 'Amount In Words',
+                  'are_all_risks_covered': 'All risks covered',
+                  'awb_number': 'AWB Number',
+                  'bl_number': 'BL Number',
+                  'broker': 'Broker',
+                  'co_insurer': 'Co Insurer',
+                  'correction_authenticated_by': 'Correction Authenticated '
+                                                 'By',
+                  'correction_evidenced': 'Correction Evidenced',
+                  'correction_with_sign_seal': 'Correction',
+                  'costs_additional_to_freight': 'Costs Additional to '
+                                                 'Freight',
+                  'counter_signature_clause': 'Counter Signature Clause',
+                  'counter_signed_by': 'Counter Signed By',
+                  'counter_signed_date': 'Counter Signed Date',
+                  'country_of_origin': 'Country of origin',
+                  'date_of_issue': 'Date of issue',
+                  'date_of_signature': 'Date of Signature',
+                  'description_of_goods': 'Description of goods',
+                  'document_issued_in': 'Document Issued In',
+                  'document_title': 'Document title',
+                  'effective_date': 'Effective date',
+                  'endorsed_by': 'Endorsed By',
+                  'endorsed_to': 'Endorsed in favor of',
+                  'endorsement': 'Endorsement',
+                  'expiry_date': 'Expiry date',
+                  'franchise_or_deductible': 'Franchise or Deductible',
+                  'freight_payable': 'Freight',
+                  'gross_weight': 'Gross weight',
+                  'incoterm': 'Incoterm',
+                  'insurance_company': 'Insurance Company',
+                  'insured_party': 'Insured Party',
+                  'insurer': 'Insurer',
+                  'invoice_number': 'Invoice number',
+                  'issuer': 'Issuer',
+                  'issuing_bank': 'Issuing Bank',
+                  'language_of_document': 'Language of document',
+                  'lc_issuance_date': 'LC issuance date',
+                  'lc_number': 'LC Number',
+                  'legalized': 'Legalized/visaed/certified as per LC',
+                  'measurement': 'Measurement',
+                  'missing_pages_in_document': 'Missing Pages in Document',
+                  'net_weight': 'Net Weight',
+                  'number_of_originals': 'Number of originals',
+                  'place_of_receipt': 'Place of receipt',
+                  'premium_paid': 'Premium paid as per Insurance document',
+                  'purchase_order_number': 'Purchase Order Number',
+                  'purpose_of_document_as_per_lc': 'Purpose of document as '
+                                                   'per LC',
+                  'seal': 'Seal',
+                  'shipping_marks': 'Shipping Marks',
+                  'signature': 'Signature',
+                  'signed_as': 'Signed As',
+                  'signed_by': 'Signed By',
+                  'signed_for': 'Signed For',
+                  'statement_clause_as_per_lc': 'Statement Clause as per '
+                                                'LC',
+                  'trading_name': 'Trading Name',
+                  'underwriter': 'Underwriter',
+                  'vessel': 'Vessel',
+                  'voyage_number': 'Voyage Number',
+                  'warehouse_clause': 'Warehouse to Warehouse Clause'},
+     'mill_test_certificate': {'date_of_issue': 'Date of issue'},
+     'multimodal_bill_of_lading': {'agent': 'Agent',
+                           'amount': 'Amount',
+                           'amount_in_words': 'Amount In Words',
+                           'bl_number': 'BL Number',
+                           'carrier': 'Carrier',
+                           'consignee': 'Consignee',
+                           'contract_number': 'Contract Number',
+                           'correction_authenticated_by': 'Correction '
+                                                          'Authenticated '
+                                                          'By',
+                           'correction_evidenced': 'Correction Evidenced',
+                           'correction_with_sign_seal': 'Correction',
+                           'costs_additional_to_freight': 'Costs '
+                                                          'Additional to '
+                                                          'Freight',
+                           'date_of_issue': 'Date of issue',
+                           'defective_identifier': 'Defective Identifier',
+                           'description_of_goods': 'Description of goods',
+                           'document_issued_in': 'Document Issued In',
+                           'document_title': 'Document title',
+                           'endorsed_by': 'Endorsed By',
+                           'endorsed_to': 'Endorsed in favor of',
+                           'endorsement': 'Endorsement',
+                           'formerly_known_as': 'Formerly Known As',
+                           'freight_payable': 'Freight',
+                           'gross_weight': 'Gross weight',
+                           'incoterm': 'Incoterm',
+                           'invoice_number': 'Invoice number',
+                           'is_transshipment': 'Transhipment',
+                           'issuer': 'Issuer',
+                           'issuing_bank': 'Issuing Bank',
+                           'language_of_document': 'Language of document',
+                           'lc_issuance_date': 'LC issuance date',
+                           'lc_number': 'LC Number',
+                           'legalized': 'Legalized/visaed/certified as per '
+                                        'LC',
+                           'missing_pages_in_document': 'Missing Pages in '
+                                                        'Document',
+                           'net_weight': 'Net Weight',
+                           'notify_party': 'Notify Party',
+                           'number_of_originals': 'Number of originals',
+                           'on_deck_cargo': 'On Deck Cargo',
+                           'onboard_date': 'Onboard Date',
+                           'onboard_notation_port_of_discharge': 'Onboard '
+                                                                 'Notation '
+                                                                 'Port of '
+                                                                 'Discharge',
+                           'onboard_notation_port_of_loading': 'Onboard '
+                                                               'Notation '
+                                                               'Port of '
+                                                               'loading',
+                           'onboard_notation_vessel': 'Onboard Notation '
+                                                      'Vessel',
+                           'place_of_delivery': 'Place of delivery',
+                           'place_of_discharge': 'Place of Discharge',
+                           'place_of_receipt': 'Place of receipt',
+                           'port_of_discharge': 'Port of Discharge',
+                           'port_of_loading': 'Port of Loading',
+                           'pre_printed_shipping_clause': 'Pre-printed '
+                                                          'Shipping Clause',
+                           'purchase_order_number': 'Purchase Order Number',
+                           'purpose_of_document_as_per_lc': 'Purpose of '
+                                                            'document as '
+                                                            'per LC',
+                           'sales_order_number': 'Sales order number',
+                           'shipper': 'Shipper',
+                           'shipping_marks': 'Shipping Marks',
+                           'signature': 'Signature',
+                           'signed_as': 'Signed As',
+                           'signed_by': 'Signed By',
+                           'signed_for': 'Signed For',
+                           'statement_clause_as_per_lc': 'Statement Clause '
+                                                         'as per LC',
+                           'surrender_clause': 'Surrender Clause BL Nos',
+                           'surrender_clause_for_release_of_goods': 'Surrender '
+                                                                    'Clause '
+                                                                    'for '
+                                                                    'Release '
+                                                                    'of '
+                                                                    'Goods',
+                           'terms_and_conditions': 'Terms and Conditions',
+                           'vessel': 'Vessel',
+                           'voyage_number': 'Voyage Number'},
+     'non_negotiable_seaway_bill': {'agent': 'Agent',
+                            'amount': 'Amount',
+                            'amount_in_words': 'Amount In Words',
+                            'bl_number': 'BL Number',
+                            'carrier': 'Carrier',
+                            'consignee': 'Consignee',
+                            'contract_number': 'Contract Number',
+                            'correction_authenticated_by': 'Correction '
+                                                           'Authenticated '
+                                                           'By',
+                            'correction_evidenced': 'Correction Evidenced',
+                            'correction_with_sign_seal': 'Correction',
+                            'costs_additional_to_freight': 'Costs '
+                                                           'Additional to '
+                                                           'Freight',
+                            'date_of_issue': 'Date of issue',
+                            'defective_identifier': 'Defective Identifier',
+                            'description_of_goods': 'Description of goods',
+                            'document_issued_in': 'Document Issued In',
+                            'document_title': 'Document title',
+                            'endorsed_by': 'Endorsed By',
+                            'endorsed_to': 'Endorsed in favor of',
+                            'endorsement': 'Endorsement',
+                            'formerly_known_as': 'Formerly Known As',
+                            'freight_payable': 'Freight',
+                            'gross_weight': 'Gross weight',
+                            'incoterm': 'Incoterm',
+                            'invoice_number': 'Invoice number',
+                            'is_transshipment': 'Transhipment',
+                            'issuer': 'Issuer',
+                            'issuing_bank': 'Issuing Bank',
+                            'language_of_document': 'Language of document',
+                            'lc_issuance_date': 'LC issuance date',
+                            'lc_number': 'LC Number',
+                            'legalized': 'Legalized/visaed/certified as '
+                                         'per LC',
+                            'missing_pages_in_document': 'Missing Pages in '
+                                                         'Document',
+                            'net_weight': 'Net Weight',
+                            'notify_party': 'Notify Party',
+                            'number_of_originals': 'Number of originals',
+                            'on_deck_cargo': 'On Deck Cargo',
+                            'onboard_date': 'Onboard Date',
+                            'onboard_notation_port_of_discharge': 'Onboard '
+                                                                  'Notation '
+                                                                  'Port of '
+                                                                  'Discharge',
+                            'onboard_notation_port_of_loading': 'Onboard '
+                                                                'Notation '
+                                                                'Port of '
+                                                                'loading',
+                            'onboard_notation_vessel': 'Onboard Notation '
+                                                       'Vessel',
+                            'place_of_delivery': 'Place of delivery',
+                            'place_of_discharge': 'Place of Discharge',
+                            'place_of_receipt': 'Place of receipt',
+                            'port_of_discharge': 'Port of Discharge',
+                            'port_of_loading': 'Port of Loading',
+                            'pre_printed_shipping_clause': 'Pre-printed '
+                                                           'Shipping '
+                                                           'Clause',
+                            'purchase_order_number': 'Purchase Order '
+                                                     'Number',
+                            'purpose_of_document_as_per_lc': 'Purpose of '
+                                                             'document as '
+                                                             'per LC',
+                            'sales_order_number': 'Sales order number',
+                            'shipper': 'Shipper',
+                            'shipping_marks': 'Shipping Marks',
+                            'signature': 'Signature',
+                            'signed_as': 'Signed As',
+                            'signed_by': 'Signed By',
+                            'signed_for': 'Signed For',
+                            'statement_clause_as_per_lc': 'Statement '
+                                                          'Clause as per '
+                                                          'LC',
+                            'surrender_clause': 'Surrender Clause BL Nos',
+                            'surrender_clause_for_release_of_goods': 'Surrender '
+                                                                     'Clause '
+                                                                     'for '
+                                                                     'Release '
+                                                                     'of '
+                                                                     'Goods',
+                            'terms_and_conditions': 'Terms and Conditions',
+                            'vessel': 'Vessel',
+                            'voyage_number': 'Voyage Number'},
+     'packing_list': {'amount': 'Amount',
+              'amount_in_words': 'Amount In Words',
+              'applicant': 'Applicant',
+              'awb_number': 'AWB Number',
+              'beneficiary': 'Beneficiary',
+              'bl_number': 'BL Number',
+              'buyer': 'Buyer',
+              'contract_number': 'Contract Number',
+              'correction_authenticated_by': 'Correction Authenticated By',
+              'correction_evidenced': 'Correction Evidenced',
+              'correction_with_sign_seal': 'Correction',
+              'counter_signature_clause': 'Counter Signature Clause',
+              'counter_signed_by': 'Counter Signed By',
+              'country_of_origin': 'Country of origin',
+              'date_of_issue': 'Date of issue',
+              'date_of_signature': 'Date of Signature',
+              'description_of_goods': 'Description of goods',
+              'document_issued_in': 'Document Issued In',
+              'document_title': 'Document title',
+              'exporter': 'Exporter',
+              'fcr_number': 'FCR Number',
+              'freight_payable': 'Freight',
+              'goods_packed_as_per_lc': 'Goods Packed as per LC',
+              'gross_weight': 'Gross weight',
+              'incoterm': 'Incoterm',
+              'inspection_evidenced': 'Inspection Evidenced',
+              'invoice_date': 'Invoice Date',
+              'invoice_number': 'Invoice number',
+              'issued_to': 'Issued to',
+              'issuer': 'Issuer',
+              'issuing_bank': 'Issuing Bank',
+              'language_of_document': 'Language of document',
+              'lc_issuance_date': 'LC issuance date',
+              'lc_number': 'LC Number',
+              'legalized': 'Legalized/visaed/certified as per LC',
+              'manufacturer': 'Manufacturer',
+              'missing_pages_in_document': 'Missing Pages in Document',
+              'net_weight': 'Net Weight',
+              'notify_party': 'Notify Party',
+              'place_of_receipt': 'Place of receipt',
+              'port_of_discharge': 'Port of Discharge',
+              'port_of_loading': 'Port of Loading',
+              'purchase_order_number': 'Purchase Order Number',
+              'purpose_of_document_as_per_lc': 'Purpose of document as per '
+                                               'LC',
+              'route_from': 'Route From',
+              'route_to': 'Route To',
+              'sales_order_number': 'Sales order number',
+              'seal': 'Seal',
+              'shipment_date': 'Shipment Date',
+              'shipping_marks': 'Shipping Marks',
+              'signature': 'Signature',
+              'signed_by': 'Signed By',
+              'signed_for': 'Signed For',
+              'statement_clause_as_per_lc': 'Statement Clause as per LC',
+              'tenor': 'Tenor',
+              'vessel': 'Vessel',
+              'voyage_number': 'Voyage Number'},
+     'remittance_letter': {'amount': 'Amount',
+                   'amount_in_words': 'Amount In Words',
+                   'date_of_issue': 'Date of issue',
+                   'drawee': 'Drawee',
+                   'drawer': 'Drawer',
+                   'is_urc_522_applicable': 'URC 522 applicable',
+                   'non_payment_non_acceptance_instructions': 'Non Payment '
+                                                              'Non '
+                                                              'Acceptance '
+                                                              'Instructions',
+                   'pay_to': 'Pay To',
+                   'presenting_bank': 'Presenting Bank',
+                   'remitting_bank': 'Remitting Bank',
+                   'remitting_bank_reference_number': 'Remitting Bank '
+                                                      'Reference Number',
+                   'remitting_bank_swift_code': 'Remitting Bank Swift Code',
+                   'remitting_letter_date': 'Remitting Letter Date',
+                   'tenor': 'Tenor',
+                   'terms_acceptance_payment': 'Terms and Condition for '
+                                               'Payment/Acceptance',
+                   'terms_of_delivery': 'Terms of Delivery'},
+     'statement': {'issuer': 'Issuer',
+               'signature': 'Signature',
+               'signed_for': 'Signed For'},
+     'vessel_certificate': {'amount': 'Amount',
+                    'amount_in_words': 'Amount In Words',
+                    'beneficiary': 'Beneficiary',
+                    'consignor': 'Consignor',
+                    'correction_authenticated_by': 'Correction '
+                                                   'Authenticated By',
+                    'correction_evidenced': 'Correction Evidenced',
+                    'correction_with_sign_seal': 'Correction',
+                    'costs_additional_to_freight': 'Costs Additional to '
+                                                   'Freight',
+                    'date_of_issue': 'Date of issue',
+                    'date_of_signature': 'Date of Signature',
+                    'description_of_goods': 'Description of goods',
+                    'document_issued_in': 'Document Issued In',
+                    'document_title': 'Document title',
+                    'exporter': 'Exporter',
+                    'freight_payable': 'Freight',
+                    'gross_weight': 'Gross weight',
+                    'incoterm': 'Incoterm',
+                    'inspection_evidenced': 'Inspection Evidenced',
+                    'invoice_date': 'Invoice Date',
+                    'invoice_number': 'Invoice number',
+                    'issuer': 'Issuer',
+                    'issuing_bank': 'Issuing Bank',
+                    'lc_issuance_date': 'LC issuance date',
+                    'lc_number': 'LC Number',
+                    'legalized': 'Legalized/visaed/certified as per LC',
+                    'measurement': 'Measurement',
+                    'missing_pages_in_document': 'Missing Pages in '
+                                                 'Document',
+                    'net_weight': 'Net Weight',
+                    'place_of_issue': 'Place of issue',
+                    'purchase_order_number': 'Purchase Order Number',
+                    'purpose_of_document_as_per_lc': 'Purpose of document '
+                                                     'as per LC',
+                    'route_from': 'Route From',
+                    'route_to': 'Route To',
+                    'seal': 'Seal',
+                    'shipping_marks': 'Shipping Marks',
+                    'signature': 'Signature',
+                    'signed_as': 'Signed As',
+                    'signed_by': 'Signed By',
+                    'signed_for': 'Signed For',
+                    'statement_clause_as_per_lc': 'Statement Clause as per '
+                                                  'LC'},
+     'weight_list': {'amount': 'Amount',
+             'amount_in_words': 'Amount In Words',
+             'date_of_issue': 'Date of issue',
+             'description_of_goods': 'Description of goods',
+             'issuer': 'Issuer',
+             'language_of_document': 'Language of document',
+             'signature': 'Signature',
+             'signed_by': 'Signed By'}}</code></p>
+</div>
+</div>
+</div>
+<h3 id="use-case-6-retrieving-document-details-based-on-document-type-id">Use Case 6: Retrieving Document Details based on document Type ID<a class="headerlink" href="#use-case-6-retrieving-document-details-based-on-document-type-id" title="Permanent link">&para;</a></h3>
+<p>Scenario: In the  Report module(ce-tf-api-reports), there is a requirement to retrieve additional information about a document based on its document type ID. However, in our main database (cleartrade/tfjpmc), we only store the document type ID for a particular transaction. </p>
+<p>Solution: To retrieve the details of a document based on its document type ID, we will utilize the DocumentTypeService package from the tradefinance(cdm) This service provides functionalities to access document metadata stored within the CDM.
+Given how cdm service can be utilized in other modules.</p>
+<p>Given how cdm service can be utilized in other modules.</p>
+<pre><code># Import the DocumentTypeService package
+from tradefinance.application.operations.services.document_type_service import DocumentTypeService
+
+# Initialize the DocumentTypeService
+doc_type_service = DocumentTypeService()
+
+# Define the document type ID for which details need to be retrieved
+document_type_id = 8
+
+# Retrieve the document metadata using the document type ID
+document_metadata = doc_type_service.get_metadata_by_id(document_type_id)
+
+# Extract the display name of the document from the metadata
+doc_type_display_name = document_metadata.get(&quot;display_name&quot;)
+
+# Print the display name of the document
+print(&quot;Document Type Display Name:&quot;, doc_type_display_name)
+
+</code></pre>
+<ol>
+<li>Given here the code snippet of 
+site-packages/tradefinance/common/constants/document_metadata.py</li>
+</ol>
+<pre><code>
+&quot;&quot;&quot;
+latest document_type_id used = 173
+&quot;&quot;&quot;
+
+DOCUMENT_METADATA = {
+    AIRWAY_BILL: {
+        &quot;key&quot;: AIRWAY_BILL,
+        &quot;display_name&quot;: &quot;Airway Bill&quot;,
+        &quot;short_key&quot;: &quot;AB&quot;,
+        &quot;document_type_id&quot;: 43,
+        &quot;document_group_id&quot;: DocumentGroups.TRANSPORT.value,
+        &quot;document_subgroup_id&quot;: DocumentSubGroups.AIR_TRANSPORT.value,
+        &quot;sequence&quot;: 35,
+        &quot;is_supported&quot;: True
+    },
+
+CERTIFICATE_OF_ORIGIN: {
+    &quot;key&quot;: CERTIFICATE_OF_ORIGIN,
+    &quot;display_name&quot;: &quot;Certificate of Origin&quot;,
+    &quot;short_key&quot;: &quot;COO&quot;,
+    &quot;document_type_id&quot;: 8,
+    &quot;document_group_id&quot;: DocumentGroups.CERTIFICATE.value,
+    &quot;sequence&quot;: 50,
+    &quot;is_supported&quot;: True
+},
+</code></pre>
+<p>The DocumentTypeService allows us to interact with the CDM to fetch metadata related to document types. By providing the document type ID, we can retrieve specific details such as the display name, short key, document group ID, and other relevant information stored in the CDM. This approach ensures that we obtain accurate and consistent document details across our application modules, enhancing the efficiency and reliability of our compliance processes</p>
+<pre><code>@staticmethod
+def get_metadata_by_id(document_type_id: int):
+    &quot;&quot;&quot;
+    Get Meta dat provided document type id
+    :param document_type_id:
+    :return:
+    &quot;&quot;&quot;
+
+    for document, metadata in DOCUMENT_METADATA.items():
+        if metadata.get(&quot;document_type_id&quot;, 0) == document_type_id:
+            return metadata
+
+@staticmethod
+def get_metadata_by_short_key(short_key: str):
+    &quot;&quot;&quot;
+    Get Metadata provided short key
+    :param short_key:
+    :return:
+    &quot;&quot;&quot;
+
+    for document, metadata in DOCUMENT_METADATA.items():
+        if metadata.get(&quot;short_key&quot;, 0) == short_key:
+            return metadata
+
+@staticmethod
+def get_metadata_by_key(key: str):
+    &quot;&quot;&quot;
+    Get Metadata provided key name
+    :param key:
+    :return:
+    &quot;&quot;&quot;
+
+    for document, metadata in DOCUMENT_METADATA.items():
+        if metadata.get(&quot;key&quot;, 0) == key:
+            return metadata
+
+
+</code></pre>
+<p>All the list of doc are available here version 1.</p>
+<pre><code></code></pre>
+
+
+
+
+
+
+
+
+
+
+
+
+                
+              </article>
+            </div>
+          
+          
+  <script>var tabs=__md_get("__tabs");if(Array.isArray(tabs))e:for(var set of document.querySelectorAll(".tabbed-set")){var tab,labels=set.querySelector(".tabbed-labels");for(tab of tabs)for(var label of labels.getElementsByTagName("label"))if(label.innerText.trim()===tab){var input=document.getElementById(label.htmlFor);input.checked=!0;continue e}}</script>
+
+<script>var target=document.getElementById(location.hash.slice(1));target&&target.name&&(target.checked=target.name.startsWith("__tabbed_"))</script>
+        </div>
+        
+      </main>
+      
+        <footer class="md-footer">
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-copyright">
+  
+  
+    Made with
+    <a href="https://squidfunk.github.io/mkdocs-material/" target="_blank" rel="noopener">
+      Material for MkDocs
+    </a>
+  
+</div>
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    <div class="md-dialog" data-md-component="dialog">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
+    
+    
+    <script id="__config" type="application/json">{"base": "..", "features": ["content.code.copy", "content.tabs.link"], "search": "../assets/javascripts/workers/search.b8dbb3d2.min.js", "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}}</script>
+    
+    
+      <script src="../assets/javascripts/bundle.3220b9d7.min.js"></script>
+      
+    
+  <script>document$.subscribe(() => {const lightbox = GLightbox({"touchNavigation": false, "loop": false, "zoomable": true, "draggable": false, "openEffect": "zoom", "closeEffect": "zoom", "slideEffect": "slide"});})</script></body>
+</html>
