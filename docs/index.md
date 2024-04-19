@@ -13,7 +13,7 @@ Welcome to the developer documentation for our project. This guide aims to provi
 7. [Rule Engine Integration](Rule_Engine_Integration.md)
 8. [LC Merge](LC_Merge.md)
 9. [CDM (Common Data Model)](CDM.md)
-10. [CE utility packages](CE_utility_packages.md)
+10. [CE Utility Packages](CE_Utility_Packages.md)
 11. [Back Office Integration](Back_Office_Integration.md)
 12. [Minio Buckets](Minio_Buckets.md)
 13. [RabbitMQ Queues](RabbitMQ_Queues.md)
